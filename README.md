@@ -36,5 +36,5 @@ sudo crontab -e
 
 Add this line at the end of the file:
 ```bash
-@daily sh /scripts/websites-backup-script/backup.sh
+@daily bash /scripts/websites-backup-script/backup.sh
 ```
